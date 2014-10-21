@@ -1,0 +1,5 @@
+def multiplay(n1, n2)
+  return n1*n2
+end
+
+puts multiplay(1710938413846513151, 4123941286514564389394803801243)
