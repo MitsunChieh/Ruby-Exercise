@@ -4,3 +4,7 @@ number = 3
 arr.each do |num|
   puts "#{number} is in the array." if num == number
 end
+
+# using include method
+
+puts "#{number} is indeed in the array."  if arr.include?(number)
